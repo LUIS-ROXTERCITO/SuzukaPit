@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Suzuka Pit</string>
+    <string name="cancel">Cancelar</string>
+    <string name="accept">Aceptar</string>
+
+    <!-- Login -->
+    <string name="login_title">Suzuka Pit</string>
+    <string name="login_subtitle">Tu bitácora de F1 y circuitos de Japón</string>
+    <string name="login_button">Iniciar sesión con huella</string>
+    <string name="login_enroll">Registrar una huella en Ajustes</string>
+    <string name="login_prompt_title">Acceso a Suzuka Pit</string>
+    <string name="login_prompt_subtitle">Coloca tu dedo en el sensor de huella</string>
+    <string name="login_not_recognized">Huella no reconocida. Intenta de nuevo.</string>
+    <string name="login_cancelled">Autenticación cancelada. Toca el botón para intentarlo otra vez.</string>
+    <string name="login_no_hardware">Este dispositivo no tiene sensor de huella dactilar.</string>
+    <string name="login_hw_unavailable">El sensor de huella no está disponible en este momento. Intenta más tarde.</string>
+    <string name="login_none_enrolled">No hay huellas registradas en este dispositivo. Registra una en Ajustes.</string>
+    <string name="login_update_required">Se requiere una actualización de seguridad del sistema para usar la huella.</string>
+    <string name="login_unsupported">La autenticación biométrica no es compatible con esta versión de Android.</string>
+    <string name="login_unknown_status">No se pudo determinar el estado del sensor biométrico.</string>
+    <string name="login_lockout">Demasiados intentos fallidos. Espera 30 segundos e inténtalo de nuevo.</string>
+    <string name="login_lockout_permanent">Sensor bloqueado por demasiados intentos. Desbloquea el teléfono con tu PIN, patrón o contraseña y vuelve a intentarlo.</string>
+    <string name="login_timeout">Se agotó el tiempo de espera. Intenta de nuevo.</string>
+    <string name="login_error_generic">Error de autenticación: %1$s</string>
+
+    <!-- Navegación y menú -->
+    <string name="nav_standings">Clasificación</string>
+    <string name="nav_logbook">Bitácora</string>
+    <string name="nav_settings">Ajustes</string>
+    <string name="menu_logout">Cerrar sesión</string>
+    <string name="menu_about">Acerca de</string>
+    <string name="logout_title">Cerrar sesión</string>
+    <string name="logout_message">¿Seguro que quieres salir? Tendrás que volver a usar tu huella para entrar.</string>
+    <string name="about_title">Acerca de Suzuka Pit</string>
+    <string name="about_message">Suzuka Pit es una app para seguir el campeonato de pilotos de F1 y llevar una bitácora de tus carreras y circuitos favoritos de Japón.\n\nProyecto libre – Android con Kotlin.</string>
+
+    <!-- Clasificación -->
+    <string name="standings_title">Campeonato de pilotos</string>
+    <string name="standings_error">No se pudo cargar la clasificación. Revisa tu conexión a internet.</string>
+    <string name="standings_empty">Aún no hay datos de clasificación para esta temporada.</string>
+    <string name="retry">Reintentar</string>
+    <string name="driver_team_nationality">%1$s · %2$s</string>
+    <string name="driver_points">%1$s pts</string>
+    <string name="driver_wins">%1$s victorias</string>
+
+    <!-- Bitácora -->
+    <string name="logbook_empty">Aún no tienes entradas.\nToca + para registrar tu primera carrera o circuito.</string>
+    <string name="logbook_add">Agregar entrada</string>
+    <string name="entry_edit">Editar</string>
+    <string name="entry_delete">Eliminar</string>
+    <string name="entry_circuit_date">%1$s · %2$s</string>
+    <string name="entry_driver">Piloto: %1$s</string>
+    <string name="delete_title">Eliminar entrada</string>
+    <string name="delete_message">¿Eliminar \"%1$s\"? Esta acción no se puede deshacer.</string>
+    <string name="entry_deleted">Entrada eliminada</string>
+    <string name="entry_saved">Entrada guardada</string>
+    <string name="entry_updated">Entrada actualizada</string>
+
+    <!-- Formulario -->
+    <string name="form_title_new">Nueva entrada</string>
+    <string name="form_title_edit">Editar entrada</string>
+    <string name="hint_title">Título (ej. GP de Japón 2026)</string>
+    <string name="hint_circuit">Circuito de Japón</string>
+    <string name="hint_driver">Piloto favorito</string>
+    <string name="hint_notes">Notas</string>
+    <string name="label_rating">Calificación</string>
+    <string name="save">Guardar</string>
+    <string name="err_title_required">El título es obligatorio</string>
+    <string name="err_title_length">El título debe tener entre 3 y 40 caracteres</string>
+    <string name="err_circuit">Selecciona un circuito de la lista</string>
+    <string name="err_driver">Escribe el nombre del piloto (solo letras, mínimo 3)</string>
+    <string name="err_notes">Las notas deben tener entre 10 y 300 caracteres</string>
+    <string name="err_rating">Elige una calificación de al menos 1 estrella</string>
+
+    <!-- Ajustes -->
+    <string name="settings_appearance">Apariencia</string>
+    <string name="settings_dark">Modo oscuro</string>
+    <string name="settings_session">Sesión</string>
+    <string name="settings_logout">Cerrar sesión</string>
+</resources>

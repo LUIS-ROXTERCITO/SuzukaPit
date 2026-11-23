@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.SuzukaPit" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorOnPrimary">@color/on_primary</item>
+        <item name="android:colorBackground">@color/surface_bg</item>
+        <item name="colorSurface">@color/surface_bg</item>
+        <item name="colorOnSurface">@color/on_surface_text</item>
+        <item name="colorOnBackground">@color/on_surface_text</item>
+        <item name="android:statusBarColor">@color/primary</item>
+    </style>
+
+    <!-- Hace blancos los iconos de la toolbar roja -->
+    <style name="ThemeOverlay.SuzukaPit.Toolbar" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+</resources>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/standingsFragment"
+        android:icon="@drawable/ic_standings"
+        android:title="@string/nav_standings" />
+    <item
+        android:id="@+id/logbookFragment"
+        android:icon="@drawable/ic_logbook"
+        android:title="@string/nav_logbook" />
+    <item
+        android:id="@+id/settingsFragment"
+        android:icon="@drawable/ic_settings"
+        android:title="@string/nav_settings" />
+</menu>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/standingsFragment">
+
+    <fragment
+        android:id="@+id/standingsFragment"
+        android:name="com.luisrocha.suzukapit.ui.standings.StandingsFragment"
+        android:label="@string/nav_standings" />
+
+    <fragment
+        android:id="@+id/logbookFragment"
+        android:name="com.luisrocha.suzukapit.ui.logbook.LogbookFragment"
+        android:label="@string/nav_logbook">
+        <action
+            android:id="@+id/action_logbook_to_form"
+            app:destination="@id/entryFormFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/entryFormFragment"
+        android:name="com.luisrocha.suzukapit.ui.logbook.EntryFormFragment"
+        android:label="@string/form_title_new">
+        <argument
+            android:name="entryId"
+            android:defaultValue="-1L"
+            app:argType="long" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/settingsFragment"
+        android:name="com.luisrocha.suzukapit.ui.settings.SettingsFragment"
+        android:label="@string/nav_settings" />
+</navigation>
